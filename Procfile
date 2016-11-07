@@ -1,1 +1,1 @@
-web: gunicorn polar-river-77797:app --log-file=-
+web: gunicorn views:app --log-file=-
